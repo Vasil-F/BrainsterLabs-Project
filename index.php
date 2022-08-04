@@ -461,6 +461,13 @@
         </div>
       </div>
     </div>
+       <!-- FOOTER -->
+       <div class="container-fluid footer">
+      <div class="row bg-black justify-content-center align-items-center py-3 px-2">
+        <p class="text-white text-center m-0">Изработено со <span class="text-danger">&hearts;</span> од студентите на Brainster</p>
+      </div>
+    </div>
+    <!-- FOOTER END -->
 
 
 
@@ -482,7 +489,7 @@
         document.getElementById("myNav").style.height = "0%";
       }
     </script>
-    
+
       <!-- CARD FILTERS SCRIPT -->
    <script>
     document.querySelector("#filterCoding").addEventListener("change", filterCoding);
