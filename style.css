@@ -177,3 +177,8 @@
     }
 }
 /* NAV END */
+/* CAROUSEL */
+.carouselHeight {
+    height: fit-content;
+}
+/* CAROUSEL END */
