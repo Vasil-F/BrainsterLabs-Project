@@ -79,6 +79,63 @@
     </div>
     <span id="overlayBtn" class="" onclick="openNav()">&#9776; </span>
   </nav>
+  <div class="forms container-fluid height-fit bg-warning">
+    <div class="container">
+      <div class="row justify-content-center text-center pt-3 pt-md-5">
+        <h1 class="font-weight-bold my-md-5 my-2 letter-spacing">
+          Вработи студенти
+        </h1>
+      </div>
+      <div class="row pt-0 pb-4 py-md-4">
+        <div class="col col-lg-10 offset-lg-1">
+          <form class="p-4" name="form" action="form.php" method="post">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label class="font-weight-bold" for="#Name">Име и презиме</label>
+                <input type="text" class="form-control p-4" id="Name" name="Name" required data-toggle="tooltip" data-placement="bottom" title="Пишувајте на латиница" placeholder="Вашето име и презиме" />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="form-group col-md-6">
+                <label class="font-weight-bold" for="#CompanyName">Име на компанија</label>
+                <input type="text" class="form-control p-4" id="CompanyName" name="CompanyName" required data-toggle="tooltip" data-placement="bottom" title="Пишувајте на латиница" placeholder="Име на вашата компанија" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label class="font-weight-bold" for="#Email">Контакт имејл</label>
+                <input type="email" class="form-control p-4" id="Email" name="Email" required data-toggle="tooltip" data-placement="bottom" title="Внесете ја вашата имејл адреса" placeholder="Контакт имејл на вашата компанија" />
+              </div>
+              <div class="form-group col-md-6">
+                <label class="font-weight-bold" for="#PhoneNumber">Контакт телефон</label>
+                <input type="number" class="form-control p-4" id="PhoneNumber" name="Phone" required data-toggle="tooltip" data-placement="bottom" title="Внесете го вашиот телефонски број" placeholder="Контакт телефон на вашата компанија" />
+              </div>
+            </div>
+            <div class="form-row flex-column flex-md-row">
+              <div class="col">
+                <label class="font-weight-bold" for="#academy_id">Тип на студент</label>
+                <select required id="academy_id" name="academy_id" class="form-control" data-toggle="tooltip" data-placement="bottom" title="Изберете тип на студент">
+                  <?php
+                  while ($row = $result->fetch_assoc()) {
+                    echo '<option value="' . $row['id'] . '">' . $row['name'] . '</option>';
+                  }
+                  ?>
+                  <option value="" disabled selected hidden>
+                    Изберете тип на студент
+                  </option>
+                </select>
+              </div>
+              <div class="col pt-2">
+                <label class="font-weight-bold" for="#Students"></label>
+                <button type="submit" name="submit" class="btn btn-danger btn-block" data-toggle="tooltip" data-placement="top" title="Испрати формулар">
+                  ИСПРАТИ
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
