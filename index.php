@@ -19,7 +19,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm bg-warning navbar-light">
       <div class="logo-wrap p-2 mx-3">
-        <a class="logo" href="index.html"
+        <a class="logo" href="index.php"
           ><img class="img-logo" src="images/brainster-logo.png" alt="logo"
         /></a>
       </div>
