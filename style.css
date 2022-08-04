@@ -292,3 +292,13 @@
     border: 0.1rem solid rgba(0, 0, 0, 0.555);
 }
 /* CARDS END */
+/* FORM */
+.letter-spacing {
+    letter-spacing: 5px;
+}
+@media screen and (max-width: 425px){
+    .forms h1 {
+        font-size: 30px;
+    }
+}
+/* FORM END */
