@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body class="mb-56 bg-warning overflow-hidden">
   <nav class="navbar navbar-expand-sm bg-nav navbar-light border-nav">
     <div class="logo-wrap p-2 mx-3">
-      <a class="logo" href="index.html"><img class="img-logo" src="images/brainster-logo.png" alt="logo" /></a>
+      <a class="logo" href="index.php"><img class="img-logo" src="images/brainster-logo.png" alt="logo" /></a>
     </div>
     <button id="btn" class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span id="navBtn" class=" "><i class="fa-solid fa-bars fs-xl"></i></span>
