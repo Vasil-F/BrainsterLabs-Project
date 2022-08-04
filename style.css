@@ -275,3 +275,20 @@
     }
 }
 /* CARD FILTERS END */
+/* CARDS */
+.border-radius-card {
+    border-radius: 10px;
+}
+.border-radius-img {
+    border-radius: 10px 10px 0 0;
+}
+.card {
+    box-shadow: 9px 13px 14px 1px rgba(0,0,0,0.58);
+}
+.card:hover {
+    transform: scale(1.06);
+    z-index: 10;
+    transition: 0.3s;
+    border: 0.1rem solid rgba(0, 0, 0, 0.555);
+}
+/* CARDS END */
