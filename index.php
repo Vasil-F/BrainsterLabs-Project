@@ -482,6 +482,95 @@
         document.getElementById("myNav").style.height = "0%";
       }
     </script>
-   
+    
+      <!-- CARD FILTERS SCRIPT -->
+   <script>
+    document.querySelector("#filterCoding").addEventListener("change", filterCoding);
+    document.querySelector("#filterDesign").addEventListener("change", filterDesign);
+    document.querySelector("#filterMarketing").addEventListener("change", filterMarketing);
+
+    function filterCoding() {
+      hideAllCards();
+
+      if (document.querySelector("#filterCoding").checked) {
+        var codingCards = document.querySelectorAll(".coding");
+      codingCards.forEach(codingCard => {
+        codingCard.style.display = "inline-block";
+      });
+      document.querySelector("#filterDesign").checked = false;
+      document.querySelector("#filterMarketing").checked = false;
+      var element = document.querySelector("#cardsCodingWrap");
+      element.style.backgroundColor = "red";
+      var element = document.querySelector("#cardsMarketingWrap");
+      element.style.backgroundColor = "black";
+      var element = document.querySelector("#cardsDesignWrap");
+      element.style.backgroundColor = "black";
+      } else {
+        showAllCards();
+        var element = document.querySelector("#cardsCodingWrap");
+      element.style.backgroundColor = "black";
+      }
+    }
+
+    function filterDesign() {
+      hideAllCards();
+
+      if (document.querySelector("#filterDesign").checked) {
+        var designCards = document.querySelectorAll(".design");
+      designCards.forEach(designCard => {
+        designCard.style.display = "inline-block";
+      });
+      document.querySelector("#filterCoding").checked = false;
+      document.querySelector("#filterMarketing").checked = false;
+      var element = document.querySelector("#cardsCodingWrap");
+      element.style.backgroundColor = "black";
+      var element = document.querySelector("#cardsMarketingWrap");
+      element.style.backgroundColor = "black";
+      var element = document.querySelector("#cardsDesignWrap");
+      element.style.backgroundColor = "red";
+      } else {
+        showAllCards();
+        var element = document.querySelector("#cardsDesignWrap");
+      element.style.backgroundColor = "black";
+      }
+    }
+
+    function filterMarketing() {
+      hideAllCards();
+
+      if (document.querySelector("#filterMarketing").checked) {
+        var marketingCards = document.querySelectorAll(".marketing");
+      marketingCards.forEach(marketingCard => {
+        marketingCard.style.display = "inline-block";
+      });
+      document.querySelector("#filterDesign").checked = false;
+      document.querySelector("#filterCoding").checked = false;
+      var element = document.querySelector("#cardsCodingWrap");
+      element.style.backgroundColor = "black";
+      var element = document.querySelector("#cardsMarketingWrap");
+      element.style.backgroundColor = "red";
+      var element = document.querySelector("#cardsDesignWrap");
+      element.style.backgroundColor = "black";
+      } else {
+        showAllCards();
+        var element = document.querySelector("#cardsMarketingWrap");
+      element.style.backgroundColor = "black";
+      }
+    }
+  
+      function showAllCards() {
+        var allCards = document.querySelectorAll(".kard");
+        allCards.forEach(card => {
+          card.style.display = "inline-block";
+        });
+      }
+      
+      function hideAllCards() {
+        var allCards = document.querySelectorAll(".kard");
+        allCards.forEach(card => {
+          card.style.display = "none";
+        });
+      }
+   </script>
     </body>
 </html>
