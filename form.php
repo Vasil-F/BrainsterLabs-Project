@@ -18,34 +18,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $sql = 'SELECT * FROM academies';
   $result = $conn->query($sql);
 }
-
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Form</title>
   <meta charset="utf-8" />
@@ -158,7 +134,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       </div>
     </div>
   </div>
-
   <div class="footer container-fluid fixed-bottom">
     <div class="row bg-black justify-content-center align-items-center py-3 px-2">
       <p class="text-white text-center m-0">
@@ -167,70 +142,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       </p>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   <!-- jQuery library -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -255,11 +166,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
-
-
-
-
-
 </body>
-
 </html>
