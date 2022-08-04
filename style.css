@@ -182,3 +182,96 @@
     height: fit-content;
 }
 /* CAROUSEL END */
+/* CARD FILTERS */
+#cardsMarketingWrap label:hover {
+    cursor: pointer;
+}
+#cardsCodingWrap label:hover {
+    cursor: pointer; 
+}
+#cardsDesignWrap label:hover {
+    cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"],
+.custom-checkbox .checked {
+        display: none;
+        }
+ .custom-checkbox input[type="checkbox"]:checked ~ .checked {
+        display: inline-block;
+        }
+ 
+.custom-checkbox input[type="checkbox"]:checked ~ .unchecked {
+        display: none;
+        }
+
+@media screen and (max-width: 768px) {
+    #cardsMarketingWrap {
+        font-size: 0.8rem;
+    }
+    #cardsCodingWrap {
+        font-size: 0.8rem;
+    }
+    #cardsDesignWrap {
+        font-size: 0.8rem;
+    }
+    #cardsMarketingWrap label i {
+        margin-top: 7px;
+    }
+    #cardsCodingWrap label i {
+        margin-top: 7px;
+    }
+    #cardsDesignWrap label i {
+        margin-top: 7px;
+    }
+}
+@media screen and (max-width: 425px) {
+    #cardsMarketing {
+        font-size: 0.9rem;
+    }
+    #cardsCoding {
+        font-size: 0.9rem;
+    }
+    #cardsDesign {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    #cardsMarketingWrap label i {
+        font-size: 15px;
+    }
+    #cardsMarketingWrap label {
+        font-size: 15px;
+        text-align: center;
+    }
+    #cardsCodingWrap label i {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    #cardsCodingWrap label {
+        font-size: 15px;
+        text-align: center;
+    }
+    #cardsDesignWrap label i {
+        font-size: 15px;
+    }
+    #cardsDesignWrap label {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 320px) {
+    #cardsMarketingWrap label i {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    #cardsCodingWrap label i {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    #cardsDesignWrap label i {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+}
+/* CARD FILTERS END */
