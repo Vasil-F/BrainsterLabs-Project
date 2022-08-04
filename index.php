@@ -171,6 +171,296 @@
       </div>
     </div>
     <!-- CARD FILTERS END -->
+       <!-- CARDS -->
+       <div class="container-fluid bg-warning pb-4">
+      <div class="container">
+        <div class="row justify-content-center pt-4 pb-1">
+          <h2 class="font-weight-bold">Проекти</h2>
+        </div>
+        <div class="row">
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding1.jpg" class="card-img-top border-radius-img " alt="coding1">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard marketing col-12 col-md-6 col-lg-4">
+            <div class="card marketing border-radius-card mt-4 ">
+              <img src="images/marketing1.jpg" class="card-img-top border-radius-img " alt="marketing1">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Маркетинг</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding2.jpg" class="card-img-top border-radius-img " alt="coding2">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard design col-12 col-md-6 col-lg-4">
+            <div class="card design border-radius-card mt-4 ">
+              <img src="images/design1.jpg" class="card-img-top border-radius-img " alt="design1">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Дизајн</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding3.jpg" class="card-img-top border-radius-img " alt="coding3">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard marketing col-12 col-md-6 col-lg-4">
+            <div class="card marketing border-radius-card mt-4 ">
+              <img src="images/marketing2.jpg" class="card-img-top border-radius-img " alt="marketing2">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Маркетинг</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding4.jpg" class="card-img-top border-radius-img " alt="coding4">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard design col-12 col-md-6 col-lg-4">
+            <div class="card design border-radius-card mt-4 ">
+              <img src="images/design2.jpg" class="card-img-top border-radius-img " alt="design2">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Дизајн</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding5.jpg" class="card-img-top border-radius-img " alt="coding5">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard marketing col-12 col-md-6 col-lg-4">
+            <div class="card marketing border-radius-card mt-4 ">
+              <img src="images/marketing3.jpg" class="card-img-top border-radius-img " alt="marketing3">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Маркетинг</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding6-2.jpg" class="card-img-top border-radius-img " alt="coding6">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard design col-12 col-md-6 col-lg-4">
+            <div class="card design border-radius-card mt-4 ">
+              <img src="images/design3.jpg" class="card-img-top border-radius-img " alt="design3">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Дизајн</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding coding border-radius-card mt-4 ">
+              <img src="images/coding7.jpg" class="card-img-top border-radius-img " alt="coding7">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard marketing col-12 col-md-6 col-lg-4">
+            <div class="card marketing border-radius-card mt-4 ">
+              <img src="images/marketing4-2.jpg" class="card-img-top border-radius-img " alt="marketing4">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Маркетинг</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding8.jpg" class="card-img-top border-radius-img " alt="coding8">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard design col-12 col-md-6 col-lg-4">
+            <div class="card design border-radius-card mt-4 ">
+              <img src="images/design4-2.jpg" class="card-img-top border-radius-img " alt="design4">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Дизајн</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding9.jpg" class="card-img-top border-radius-img " alt="coding9">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard marketing col-12 col-md-6 col-lg-4">
+            <div class="card marketing border-radius-card mt-4 ">
+              <img src="images/marketing5.jpg" class="card-img-top border-radius-img " alt="marketing5">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Маркетинг</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard coding col-12 col-md-6 col-lg-4">
+            <div class="card coding border-radius-card mt-4 ">
+              <img src="images/coding10.jpg" class="card-img-top border-radius-img " alt="coding10">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Програмирање</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kard marketing col-12 col-md-6 col-lg-4">
+            <div class="card marketing border-radius-card mt-4 ">
+              <img src="images/marketing6.jpg" class="card-img-top border-radius-img " alt="marketing6">
+              <div class="card-body">
+                <span class="bg-warning p-1 font-weight-bold">Академија за Маркетинг</span>
+                <h5 class="card-title mt-2 font-weight-bold">Име на проектот стои овде во две линии</h5>
+                <p class="card-text ">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+                <p class="font-weight-bold">Април-Декември 2022</p>
+                <div class="text-right">
+                <a href="#" class="btn btn-danger px-4">Дознај повеќе</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
