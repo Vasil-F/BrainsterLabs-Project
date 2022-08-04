@@ -137,7 +137,14 @@
     </div>
   </div>
 
-
+  <div class="footer container-fluid fixed-bottom">
+    <div class="row bg-black justify-content-center align-items-center py-3 px-2">
+      <p class="text-white text-center m-0">
+        Изработено со <span class="text-danger">&hearts;</span> од студентите
+        на Brainster
+      </p>
+    </div>
+  </div>
 
 
 
@@ -220,7 +227,12 @@
       document.getElementById("myNav").style.height = "0%";
     }
   </script>
-  
+    <!-- TOOLTIP SCRIPT -->
+    <script>
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 
 
 
