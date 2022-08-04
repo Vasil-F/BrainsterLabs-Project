@@ -1,3 +1,25 @@
+<?php
+require 'connect.php';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  $Name = $_POST['Name'];
+  $CompanyName = $_POST['CompanyName'];
+  $Email = $_POST['Email'];
+  $Phone = $_POST['Phone'];
+  $academy_id = $_POST['academy_id'];
+  $sql = "INSERT INTO hireform (Name, CompanyName, Email, Phone, academy_id)
+      VALUES ('$Name','$CompanyName','$Email','$Phone','$academy_id')";
+  if (mysqli_query($conn, $sql)) {
+    header("Location: success.php");
+  } else {
+    echo 'querry error' . mysqli_error($conn);
+  }
+} else {
+  $sql = 'SELECT * FROM academies';
+  $result = $conn->query($sql);
+}
+
+?>
 
 
 
