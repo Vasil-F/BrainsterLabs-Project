@@ -98,6 +98,26 @@
       <span id="overlayBtn" class="" onclick="openNav()">&#9776; </span>
     </nav>
     <!-- NAVBAR END -->
+        <!-- CAROUSEL HERO -->
+        <div
+      id="carouselSlidesOnly"
+      class="carousel slide carousel-fade z-0 carouselHeight"
+      data-interval="4000"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner carouselHeight">
+        <div class="carousel-item active">
+          <img src="images/bg1-2.jpg" class="h-100 w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg2-2.jpg" class="h-100 w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg3-2.jpg" class="h-100 w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+    <!-- CAROUSEL END -->
 
 
         
