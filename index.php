@@ -118,6 +118,60 @@
       </div>
     </div>
     <!-- CAROUSEL END -->
+        <!-- CARD FILTERS -->
+        <div class="container-fluid">
+      <div class="row flex-column flex-md-row">
+        <div
+          id="cardsMarketingWrap"
+          class="col form-check form-check-inline bg-black text-white justify-content-center p-3 m-0"
+        >
+          <label
+            class="custom-checkbox form-check-label p-2"
+            for="filterMarketing"
+            >Проекти на студенти по академија за маркетинг
+            <input
+              class="form-check-input ml-3"
+              type="checkbox"
+              name="filterMarketing"
+              id="filterMarketing"
+            />
+            <i class="fa-solid fa-circle-check checked ml-3 mt-2 fs-m text-white"></i>
+          </label>
+        </div>
+        <div
+          id="cardsCodingWrap"
+          class="col form-check form-check-inline bg-black text-white justify-content-center p-3 m-0"
+        >
+          <label class="custom-checkbox form-check-label p-2" for="filterCoding"
+            >Проекти на студенти по академија за програмирање
+            <input
+              class="form-check-input ml-3"
+              type="checkbox"
+              name="filterCoding"
+              id="filterCoding"
+            />
+            <i class="fa-solid fa-circle-check checked ml-3 mt-2 fs-m text-white"></i>
+          </label>
+        </div>
+        <div
+          id="cardsDesignWrap"
+          class="col form-check form-check-inline bg-black text-white justify-content-center p-3 m-0"
+        >
+          <label class="custom-checkbox form-check-label p-2" for="filterDesign"
+            >Проекти на студенти по академија за дизајн
+            <input
+              class="form-check-input ml-3"
+              type="checkbox"
+              name="filterDesign"
+              id="filterDesign"
+            />
+            <i class="fa-solid fa-circle-check checked ml-3 mt-2 fs-m text-white"></i>
+          </label>
+        </div>
+      </div>
+    </div>
+    <!-- CARD FILTERS END -->
+
 
 
         
